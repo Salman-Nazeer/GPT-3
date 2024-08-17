@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/navbar";
-import Header from "./container/header/header";
 import Brand from "./components/brand/brand"
+import Features from "./container/features/features"
+import Header from "./container/header/header";
+import WhatchatGPT3 from "./container/whatchatGPT-3/whatchatGPT3";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand/>
+      <Brand />
+      <WhatchatGPT3 />
+      <Features/>
     </>
   );
 }
